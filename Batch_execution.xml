@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="Testng_practice.SampleTest2"/>
+      <class name="Testng_practice.SimpleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

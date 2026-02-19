@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Suite">
+
+<listeners>
+<listener class-name="Generic_Utilities.ListenerImplementationClass"></listener>
+</listeners>
+
+  <test name="TestRunner-1">
+   <packages>
+     
+      <package name="Organizations"/>
+            <package name="Oppurtunities"/>
+                  <package name="Vendors"/>
+            
+    </packages>
+  </test> <!-- Test -->
+  
+  <test name="TestRunner-2">
+    <packages>
+      
+      
+      <package name="Campaigns"/>
+            <package name="PurchaseOrder"/>
+      
+    </packages>
+  </test> <!-- Test -->
+  
+  <test name="TestRunner-3">
+   <packages>
+      <package name="PriceBooks"/>
+            <package name="Contacts"/>
+      
+  
+     
+    </packages>
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- Suite -->
